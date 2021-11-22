@@ -1,0 +1,35 @@
+.site-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  display: block;
+  text-align: center;
+}
+
+.card .title {
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.category {
+  flex-basis: 50%;
+}
